@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 18px 20px 0 20px;
+  }
+  .search_bar {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+  }
+  .search_bar > input {
+    height: 16px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    outline-width: none;
+  }
+  .search_bar > span {
+    padding: 5px;
+    height: 22px;
+    width: 22px;
+    background-color: #cd9842;
+    cursor: pointer;
+  }
+  .search_bar img{
+    margin: 0px 0px 0px 0px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .options {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .location {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .option_upper {
+    font-size: 10px;
+  }
+  .option_lower {
+    font-size: 13px;
+    font-weight: 800;
+  }
+  .subnav {
+    overflow: hidden;
+    background-color: rgb(45, 45, 66);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  }
+  
+  .subnav a {
+    color: #f2f2f2;
+    font-size: 11px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+  }
+  .subnav a:hover {
+    background-color: #cd9842;
+    color: rgb(45, 45, 66);
+  }
+  .toggle-button{
+    position: absolute;
+    top: 4.75rem;
+    left: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+  .lion{
+    margin: 20px 25px 0px 0px;
+    display: flex;
+  }
+  @media (max-width:750px){
+    .toggle-button{
+      display: flex;
+      margin: -14px 0px 0px 0px;
+    }
+
+    .lion{
+      margin: 0px 0px 0px 374px;
+    }
+
+    .subnav a{
+      display: none;
+      width: 100%;
+    }
+
+    .subnav{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .ul{
+      width: 100%;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .ul a{
+      padding: .5rem 1rem;
+    }
+
+    .subnav a.active{
+      display: flex;
+    }
+  }
+  body{
+    background-image: url("https://res.cloudinary.com/dvfeh6kup/image/upload/v1664533489/background_picture_cgz2cr.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0px 80px;
+    background-size: cover;
+  }
+  #square1 {
+    height: 330px;
+    width: 300px;
+    background-color: white;
+    margin-top: 250px;
+    margin-left: 86px;
+    display: inline-block;
+  }
+  #square2 {
+    height: 330px;
+    width: 300px;
+    background-color: white;
+    margin-top: 250px;
+    margin-left: 20px;
+    display: inline-block;
+  }
+  #square3 {
+    height: 330px;
+    width: 300px;
+    background-color: white;
+    margin-top: 250px;
+    margin-left: 20px;
+    display: inline-block;
+  }
+  #square4 {
+    height: 120px;
+    width: 300px;
+    background-color: white;
+    display: inline-block;
+    margin: 0px 0px 210px 20px;
+  }
+  #laptop{
+    margin: -260px 0px 15px 1095px;
+  }
+  #right{
+    margin: 60px 0px 0px 1337px;
+  }
+  #left{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin: 0px 0px 0px -1261px;
+  }
+  .info{
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .ad{
+    margin-left: 10px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  #ad{
+    margin-left: 22px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  #sign{
+    margin-left: 48px;
+    margin-top: 30px;
+  }
